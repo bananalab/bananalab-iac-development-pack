@@ -1,0 +1,41 @@
+{
+    "name": "bananalab-iac-development-pack",
+    "displayName": "Bananalab IaC Development Pack",
+    "version": "0.1.1",
+    "publisher": "bananalab",
+    "description": "Tools to help with IaC development",
+    "author": {
+        "name": "Robert Jordan"
+    },
+    "categories": [
+        "Extension Packs",
+        "Formatters",
+        "Linters",
+        "Programming Languages"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#666699",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "homepage": "https://bananalab.dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bananalab/bananalab-iac-development-pack.git"
+    },
+    "extensionPack": [
+        "amazonwebservices.aws-toolkit-vscode",
+        "Bridgecrew.checkov",
+        "hashicorp.hcl",
+        "hashicorp.terraform",
+        "hashicorp.sentinel",
+        "jock.svg",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "ms-vscode.makefile-tools",
+        "SimonSiefke.svg-preview",
+        "Trunk.io"
+    ]
+}
